@@ -45,12 +45,13 @@ services:
       - mysql-reserva-data:/var/lib/mysql
     networks:
       - net3
-
   ms-usuario:
     build:
       context: ./ms-usuario
       dockerfile: Dockerfile
     container_name: ms-usuario-container
+    ports:
+      - "8080:8080"
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql-usuario:3306/db_usuario
       SPRING_DATASOURCE_USERNAME: admin
@@ -60,12 +61,13 @@ services:
     restart: always
     networks:
       - net1
-
   ms-sala:
     build:
       context: ./ms-sala
       dockerfile: Dockerfile
     container_name: ms-sala-container
+    ports:
+      - "8081:8081"
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql-sala:3306/db_sala
       SPRING_DATASOURCE_USERNAME: admin
@@ -75,12 +77,13 @@ services:
     restart: always
     networks:
       - net2
-
   ms-reserva:
     build:
       context: ./ms-reserva
       dockerfile: Dockerfile
     container_name: ms-reserva-container
+    ports:
+      - "8082:8082"
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql-reserva:3306/db_reserva
       SPRING_DATASOURCE_USERNAME: admin
