@@ -7,6 +7,53 @@
 [![RabbitMQ](https://img.shields.io/badge/RabbitMQ-Message%20Broker-orange.svg)](https://www.rabbitmq.com/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-blue.svg)](https://www.mysql.com/)
 
+## 📑 Menu de Navegação
+
+<details>
+<summary>🧭 <strong>Índice Interativo</strong> (Clique para expandir)</summary>
+
+### 📖 Informações Gerais
+- [📋 Visão Geral](#-visão-geral)
+- [✨ Principais Características](#-principais-características)
+- [🔧 Microserviços](#-microserviços)
+- [🔗 Componentes de Infraestrutura](#-componentes-de-infraestrutura)
+- [🛠️ Stack Tecnológica](#️-stack-tecnológica)
+
+### 🚀 Execução e Deploy
+- [🚀 Como Executar](#-como-executar)
+  - [📋 Pré-requisitos](#-pré-requisitos)
+  - [⚡ Execução Rápida](#-execução-rápida)
+- [🌐 Acessos do Sistema](#-acessos-do-sistema)
+- [🔗 APIs dos Microserviços](#-apis-dos-microserviços)
+
+### 📚 Documentação Técnica
+- [📡 Padrão de Comunicação](#-padrão-de-comunicação)
+- [🔄 Fluxo de Validação de Reservas](#-fluxo-de-validação-de-reservas)
+- [📚 Documentação Swagger](#-documentação-swagger)
+- [🗄️ Credenciais de Acesso](#️-credenciais-de-acesso)
+
+### 🧪 Testes e Desenvolvimento
+- [🧪 Testes de API](#-testes-de-api)
+- [🔧 Configuração de Desenvolvimento](#-configuração-de-desenvolvimento)
+- [📈 Monitoramento](#-monitoramento)
+
+### ⚙️ Funcionalidades e Recursos
+- [📋 Funcionalidades](#-funcionalidades)
+  - [👥 Gestão de Usuários](#-gestão-de-usuários)
+  - [🏢 Gestão de Salas](#-gestão-de-salas)
+  - [📅 Sistema de Reservas](#-sistema-de-reservas)
+
+### 🔧 Suporte e Manutenção
+- [🐛 Resolução de Problemas](#-resolução-de-problemas)
+- [🛠️ Tecnologias e Versões](#️-tecnologias-e-versões)
+- [🤝 Contribuição](#-contribuição)
+- [📝 Licença](#-licença)
+- [👨‍💻 Autor](#-autor)
+
+</details>
+
+---
+
 ## 📋 Visão Geral
 
 Sistema moderno de gerenciamento de reservas de salas baseado em arquitetura de **microserviços**, implementando os princípios de **Domain-Driven Design (DDD)** e **Event-Driven Architecture**. O projeto oferece uma solução completa para o controle de usuários, salas e reservas com comunicação assíncrona entre serviços.
