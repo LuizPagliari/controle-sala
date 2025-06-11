@@ -22,10 +22,6 @@ Sistema moderno de gerenciamento de reservas de salas baseado em arquitetura de 
 - 🔄 **Tolerância a Falhas** com message queuing
 - 🌐 **Load Balancing** via Nginx
 
-## 🏗️ Arquitetura do Sistema
-
-![Arquitetura do Sistema](https://github.com/user-attachments/assets/a3c86f5d-10d0-4687-9933-9e12ceb2f970)
-
 ### 🔧 Microserviços
 
 | Serviço | Responsabilidade | Porta | Banco de Dados |
@@ -76,8 +72,6 @@ Frontend ←→ Nginx ←→ Microserviços
 ms-reserva → RabbitMQ → ms-usuario
 ms-usuario → RabbitMQ → ms-reserva
 ```
-
-![Comunicação via Message Broker](/Images/image.png)
 
 ### 🔄 Fluxo de Validação de Reservas
 
